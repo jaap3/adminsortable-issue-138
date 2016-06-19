@@ -1,0 +1,43 @@
+[
+{
+  "model": "project.album",
+  "pk": 1,
+  "fields": {
+    "artist": "Django Django",
+    "title": "Django Django"
+  }
+},
+{
+  "model": "project.track",
+  "pk": 1,
+  "fields": {
+    "album": 1,
+    "position": 1,
+    "artist": "Django Django",
+    "title": "Introduction",
+    "duration": "2:12"
+  }
+},
+{
+  "model": "project.track",
+  "pk": 2,
+  "fields": {
+    "album": 1,
+    "position": 2,
+    "artist": "Django Django",
+    "title": "Hail Bop",
+    "duration": "4:03"
+  }
+},
+{
+  "model": "project.track",
+  "pk": 3,
+  "fields": {
+    "album": 1,
+    "position": 3,
+    "artist": "Django Django",
+    "title": "Default",
+    "duration": "3:05"
+  }
+}
+]
